@@ -28,7 +28,7 @@ The file `rules.yaml` will have an array of strings that you can use to create &
   - `Also apply filter to matching conversations.`
 - Click `Save Filter`
 
-### Update a new rule in GMail
+### Update an existing rule in GMail
 
 - Visit the [Filters and Blocked Addresses](https://mail.google.com/mail/u/0/#settings/filters) in GMail
     - This link assumes the first GMail account you're logged into
