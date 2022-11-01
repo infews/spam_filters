@@ -8,11 +8,12 @@ domains.uniq!
 rules = domains.each_slice(75)
        .to_a
        .collect { |r| r.join(" OR ") }
-puts rules
 
 File.open("rules.yaml", "w") do |f|
   f.write(rules.to_yaml)
 end
 
 puts "---"
-puts "Built #{rules.length} rules with #{domains.length} domains."
+puts "Updated rules.yaml."
+puts "You have #{rules.length} rules with #{domains.length} domains."
+puts "Copy to your Gmail filters."
